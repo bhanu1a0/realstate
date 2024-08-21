@@ -1,0 +1,183 @@
+
+
+            @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+/* div.reltive {
+    position:relative;
+} */
+
+.realstate-container {
+    position:sticky;
+    height: 100px;
+
+    
+}
+
+.faber-name {
+    margin-left: 15%;
+    font-size:16px;
+    padding:5px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.login-grid {
+    display: flex;
+    align-items:center;
+    margin-left:50px;
+    font-size:20px;
+}
+
+.nav {
+    margin-left: 150px;;
+    text-align: center;
+    padding:30px;
+    align-items: space-between;
+}
+.call-visible {    
+    background-color: rgb(30 48 82 / 90%);
+    color:white;
+    height:50px;
+    padding:10px;
+    position:absolute;
+    top:100px;
+    right:30px;
+    text-align:flex-center;
+}
+
+.villa-info-container {
+    background-color: rgb(30 48 82 / 90%);
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 350px;
+    left: 100px;
+    /* height: 80vh; */
+    width: 30vw;
+    padding:50px;
+    height:80vh;
+}
+
+.all-sales-btn {
+    background-color: transparent;
+    border-color: white;
+    color: white;
+    width: 200px;
+}
+
+.line {   
+    /* height:5px;
+    width:255px; */
+    border-top:2px solid burlywood;
+}
+
+@media (min-width:576px) {
+    .villa-info-container {
+
+    }
+}
+.latest-heading {
+    padding-top:200px;
+    margin:0px;
+    justify-content:center;
+}
+
+.latest-prop-container {
+    padding-left:20%;
+    padding-right:20%;    
+}
+
+.property-sale {
+    margin:10px;
+}
+
+.latest-head {
+    text-align: center;
+}
+
+.latest-rental-heading {
+    text-align:center;
+    padding:20%;
+}
+
+.rental-properties {
+    background-color:rgb(30, 48, 84);
+    padding: 10px;
+    padding-top:50px;
+    padding-left:20%;
+    padding-right:20%;
+    padding-bottom:10%;
+}
+
+.rental-image {
+    position:relative;
+    bottom:100px;
+}
+
+.rental-properties-1 {
+    background-color:rgb(41, 59, 95);
+    padding: 30px;
+    content:"";
+    clear:both;
+    display:table;
+    padding-top:10%;
+    padding-left:20%;
+    padding-right:20%;
+}
+
+.call {
+    position:absolute;
+    top:40px;
+    right:70px;
+}
+
+.relators-container {
+    padding:30px;
+    margin:10px;
+}
+
+.client-container { 
+    /* background-image:url("https://static.wixstatic.com/media/84770f_5d808592eef24e498bf807fcc6844dfb~mv2.jpg/v1/fill/w_1349,h_549,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/84770f_5d808592eef24e498bf807fcc6844dfb~mv2.jpg"); */ 
+    position:relative;
+    z-index:5;
+}
+
+.client-context {
+    background-color: transparent;
+    position:relative;
+    top:20px;
+    z-index:-1;
+}
+
+.contact {
+    text-align:center;
+    padding:20px; 
+}
+
+.contact-container {
+    display:table;
+    clear:both;
+    content:"";
+}
+
+.map {
+    /* margin: 30px; */
+    /* padding-left:30%; */
+}
+
+.form input {
+    /* padding-right:30%; */
+    margin: 5px;
+}
+
+.social-links {
+    background-color:rgb(212, 138, 27);
+    color:white;
+    height:50px;
+    padding:15px;
+    align-content:space-between;  
+}
+
+.contact-info {
+    padding: 10px;
+    margin-left:50px;   
+}
