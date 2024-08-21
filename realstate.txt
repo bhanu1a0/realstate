@@ -12,9 +12,7 @@
 
 .realstate-container {
     position:sticky;
-    height: 100px;
-
-    
+    height: 100px; 
 }
 
 .faber-name {
